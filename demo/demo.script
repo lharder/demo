@@ -1,5 +1,12 @@
+local udp = require "defnet.udp"
+
+
 function init( self )
 	msg.post(".", "acquire_input_focus")
+
+	self.udp_server = udp.create( function( data, ip, port )
+		print( "Received data", data, ip, port )
+	end, 9999 )
 end
 
 
