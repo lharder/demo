@@ -7,6 +7,8 @@ function init( self )
 	self.udp_server = udp.create( function( data, ip, port )
 		print( "Received data", data, ip, port )
 	end, 9999 )
+
+	
 end
 
 

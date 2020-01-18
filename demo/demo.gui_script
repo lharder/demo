@@ -1,0 +1,7 @@
+local dirtylarry = require "dirtylarry/dirtylarry"
+
+function init( self )
+	dirtylarry:button( "button_larry", action_id, action, function ()
+		print("I'm Dirty Larry")
+	end )
+end

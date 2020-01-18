@@ -1,6 +1,6 @@
 [project]
 title = Demo
-dependencies = https://github.com/britzl/defnet/archive/master.zip,https://github.com/britzl/defold-luasocket/archive/0.11.zip
+dependencies = https://github.com/britzl/defnet/archive/master.zip,https://github.com/britzl/defold-luasocket/archive/0.11.zip,https://github.com/andsve/dirtylarry/archive/master.zip
 
 [bootstrap]
 main_collection = /main/main.collectionc
